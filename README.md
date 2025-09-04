@@ -1,4 +1,8 @@
 # 🎙️ Audio Transcription Pipeline
+
+![Build (SAM)](https://github.com/ASriVamsi11/audio-transcription-pipeline/actions/workflows/deploy.yml/badge.svg)
+
+
 ## 🚀 Overview
 
 The Audio Transcription Pipeline is a serverless application that automatically converts audio and video files into text using AWS cloud services. It provides an end-to-end workflow where uploaded media files are processed through Amazon Transcribe, results are stored in S3 and DynamoDB, and a FastAPI backend exposes REST endpoints for querying transcription status and retrieving transcripts.
